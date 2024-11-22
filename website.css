@@ -1,0 +1,43 @@
+a img{
+  flex-direction: column;
+  position: flex;
+  justify-content: space-between;
+  width: 100px;
+  size: 100px;
+  align-content: center;
+}
+
+
+body{
+    background-image: url("SASHS.jpeg");
+  }
+  .aside1{
+    width: 500px;
+    height:150px;
+    border:10px solid black;
+    border-image-slice:20;
+    border-image-repeat:stretch;
+    padding:10px;
+  }
+  .aside2{
+    width: 500px;
+    height:150px;
+    border:10px solid black;
+    border-image-source:url('d.jpg');
+    border-image-slice:20;
+    border-image-repeat:stretch;
+    padding:10px;
+  }
+  .logo {
+    color: black;
+    border-radius: 50%;
+  }
+  .logo img {
+    height: 30px;
+    width: 10%;
+    border-radius: 50%;
+  }
+  .logo text{
+    background-color:black;
+    margin-left: -100px;
+  }

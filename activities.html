@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>School Promotional Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+/* Body and Background Styling */
+body {
+  background-image: url('SASHS.jpg'); /* Replace with the path to your background image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-attachment: fixed; /* Keeps the image fixed when scrolling */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  color: #ffffff; /* Adjusts text color for readability */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body::before {
+  content: ''; /* Creates the overlay */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background-color: rgba(129, 100, 0, 0.5); /* Semi-transparent overlay with a maroon tint */
+  z-index: -1; /* Places it behind all content */
+}
+
+/* Header and Logo Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(128, 60, 0, 0.8); /* lightgreen header with slight transparency */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.school-logo {
+  width: 50px; /* Adjust logo size as needed */
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%; /* Makes the logo circular */
+  object-fit: cover; /* Ensures the image fits within the circular frame */
+}
+
+.school-name {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: darkorange; /* Maroon background for navigation links */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #9b2c2c; /* Lighter maroon color for hover effect */
+}
+
+/* Dropdown Styling */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position the dropdown below the parent item */
+  left: 0;
+  background-color: darkorange; /* Maroon dropdown menu */
+  border-radius: 5px;
+  width: 200px; /* Set width of the dropdown */
+  z-index: 10; /* Ensure the dropdown appears above other content */
+}
+
+nav ul li:hover .dropdown {
+  display: block;
+}
+
+.dropdown li {
+  list-style: none;
+}
+
+.dropdown li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.dropdown li a:hover {
+  background-color: #9b2c2c; /* Lighter hover effect for dropdown items */
+}
+
+/* Main Content Styling */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 20px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+  color: #ffffff; /* White text for the main header */
+}
+
+p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  color: #f2f2f2; /* Lighter color for paragraph text */
+}
+  </style>
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img src="logo.jpg" alt="School Logo" class="school-logo"></a>
+      <span class="school-name">STAND ALONE SENIOR HIGH SCHOOL</span>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Menu</a>
+          <ul class="dropdown">
+            <li><a href="mission&vision.html">Mission & Vision</a></li>
+            <li><a href="strand.html">Academic Strands</a></li></li>
+            <li><a href="activities.html">Activities/Gallery</a></li>
+            <li><a href="org.html">Org Chart</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>STAND ALONE SENIOR HIGH SCHOOL ACTIVITIES AND GALLERY</h1>
+    <p>Discover our programs, events, and activities that make our school a wonderful place for students to learn and grow.</p>
+  </main>
+</body>
+</html>
+<div class="gallery">
+		<h1><center>Event Gallery</center></center></h1>
+<center><img src="1731647731329.jpg" alt="event 1"></center>
+<br>
+<center><img src="1731647733261.jpg" alt="Event 2"></center>
+<br>
+<center><img src="1731647733261.jpg" alt="Event 3"></center>
+<br>
+<center><img src="1731647733261.jpg" alt="Event 4"></center>
+<br>
+<center><img src="1731647733261.jpg" alt="Event 5"></center>
+<br>
+<center><img src="1731647733261.jpg" alt="Event 6"></center>
+		<!-- Ad
